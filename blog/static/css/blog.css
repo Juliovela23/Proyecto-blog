@@ -1,89 +1,56 @@
-.cta {
-    height: 500px;
-    border-top: 10px solid turquoise;
+.page-header {
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
 }
 
-footer {
-    color: white;
-    background: rgb(14, 14, 14) !important;
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
 }
 
-footer strong {
-    color: turquoise;
+.content {
+    margin-left: 40px;
 }
 
-footer a {
-    color: turquoise;
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
 }
 
-.title {
-    color: white;
-    font-weight: 800;
-    font-size: 4rem;
-    font-family: 'Nunito Sans', sans-serif;
-    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+.date {
+    color: #828282;
 }
 
-.subtitle {
-    color: white;
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+.save {
+    float: right;
 }
 
-hr.content-divider {
-    max-width: 75px;
-    height: 5px;
+.post-form textarea,
+.post-form input {
+    width: 100%;
 }
 
-#parallax-1 {
-    background: url(https://source.unsplash.com/featured/?nature);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid coral;
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
 }
 
-#parallax-1 hr {
-    background: coral;
+.post {
+    margin-bottom: 70px;
 }
 
-#parallax-2 {
-    background: url(https://source.unsplash.com/featured/?computers);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid yellow;
-}
-
-#parallax-2 hr {
-    background: yellow;
-}
-
-#parallax-3 {
-    background: url(https://source.unsplash.com/featured/?city);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid hotpink;
-}
-
-#parallax-3 hr {
-    background: hotpink;
-}
-
-.label {
-    color: black;
-}
-
-input {
-    background: transparent !important;
-    border: 1px solid turquoise !important;
-    color: white !important;
-}
-
-input::placeholder {
-    color: white !important;
+.post h2 a,
+.post h2 a:visited {
+    color: #000000;
 }
