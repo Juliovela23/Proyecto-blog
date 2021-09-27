@@ -27,10 +27,11 @@
                 <div>
                     <a href="{% url 'post_new' %}" class="button is-white is-medium is-inverted">nuevo&ensp;<i class="fas fa-plus"></i></a>
                     <a href="{% url 'post_draft_list' %}" class="button is-white is-medium is-inverted">Borrador&ensp;<i class="fab fa-firstdraft"></i></a>
+
                 </div><br>
 
                 <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
-                <p class="top-menu">Bienvenido {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
+                <p class="top-menu">Bienvenido {{ user.username }} <small><a href="{% url 'logout' %}" class="button is-white is-medium is-inverted" style="color: bisque;">Cerrar sesion&ensp;<i class="fas fa-hiking"></i></a></small></p>
                 {% else %}
                 <a href="{% url 'login' %}" class="button is-white is-medium is-inverted">Iniciar sesion&ensp;<i class="fas fa-user"></i></a> {% endif %}
                 <a href="/" class="button is-white is-medium is-inverted">Home&ensp;<i class="fas fa-home"></i></a>
